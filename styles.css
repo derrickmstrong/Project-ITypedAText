@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body::after {
+  content: '';
+  background-image: url(./images/speakerboxxx.jpg);
+  background-size: cover;
+  opacity: 0.95;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+}
+
+
+#feedback {
+  font-size: 15px;
+  z-index: 10;
+}
+
+#keyboard-upper-container {
+  display: none;
+}
+
+#bars {
+  color: white;
+  background-color: rgba(107, 118, 114, 0.5);
+  z-index: 1;
+}
+
+#position-block {
+  position: absolute;
+  margin-top: 4px;
+  width: 5px;
+  height: 25px;
+  background-color: rgba(29, 250, 0, 0.363);
+  z-index: 2;
+}
+
+#prompt-container {
+  font-family: Courier New, Courier, monospace;
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+
+#target-letter {
+  font-size: 38px;
+  background-image: url(./images/monitor.png);
+  background-repeat: no-repeat;
+  height: 125px;
+  background-position-x: center;
+  margin: 0.5em 0;
+  padding: 20px 0;
+  color: white;
+}
+
+/* .glyphicon-ok {
+  content: '\e013';
+  color: #1da237;
+}
+
+.glyphicon-remove {
+  content: '\e014';
+  color: #cd2626;
+} */
+
+.highlight-key {
+  background-color: rgba(93, 8, 104, 0.75);
+   color: white;
+}
+
+.key {
+  border: 1px solid black;
+}
+
+.keyboard-container {
+  margin-top: 200px;
+}
+
+.keys-row {
+  margin-top: 40px;
+  padding: 10px 0;
+}
+
+.spacer {
+  width: 10px;
+  color: rgba(13, 13, 13, 0);
+}
+
+.speaker {
+  background-color: rgba(93, 8, 104, 0.75);
+}
+
+.try-again {
+  color: white;
+  background-color: rgba(67, 241, 44, 0.932);
+}
