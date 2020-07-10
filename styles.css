@@ -16,7 +16,6 @@ body::after {
   z-index: -1;
 }
 
-
 #feedback {
   font-size: 15px;
   z-index: 10;
@@ -48,13 +47,14 @@ body::after {
 }
 
 #target-letter {
-  font-size: 38px;
+  font-size: 2em;
   background-image: url(./images/monitor.png);
+  background-size: 5em;
   background-repeat: no-repeat;
-  height: 125px;
+  height: 150px;
   background-position-x: center;
-  margin: 0.5em 0;
-  padding: 20px 0;
+  margin: 1em 0 0;
+  padding: 30px 0 0;
   color: white;
 }
 
@@ -84,6 +84,15 @@ body::after {
 .keys-row {
   margin-top: 40px;
   padding: 10px 0;
+}
+
+.notice {
+  font-size: .75em;
+  color: rgba(190, 192, 191, 0.884);
+}
+
+.volume {
+  font-size: 4rem;
 }
 
 .spacer {

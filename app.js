@@ -172,11 +172,8 @@ $(function () {
         .delay(3000)
         .fadeIn()
         .animate({
-          fontSize: '15px',
-          margin: '1.25em 0',
-          padding: '30px 0',
           opacity: '1',
-          top: '1em',
+          top: '.08em',
         })
         .html(`<input class='btn try-again' type='button' value='Try Again'>`)
         .click(function () {
