@@ -5,7 +5,8 @@
 
 body::after {
   content: '';
-  background-image: url(./images/speakerboxxx.jpg);
+  /* background-image: url(./images/speakerboxxx.jpg); */
+  background-color: black;
   background-size: cover;
   opacity: 0.95;
   top: 0;
