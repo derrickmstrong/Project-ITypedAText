@@ -224,10 +224,11 @@ $(function () {
     // Check if keypress equal keyboard key
     if (e.which == e.keyCode) {
       $('#' + e.keyCode).toggleClass('highlight-key');
-      $('#lower-left-speaker').toggleClass('speaker');
-      $('#lower-right-speaker').toggleClass('speaker');
-      $('#upper-left-speaker').toggleClass('speaker');
-      $('#upper-right-speaker').toggleClass('speaker');
+      // Commented Out: Stopped speakers from highlighting with each keypress
+      // $('#lower-left-speaker').toggleClass('speaker');
+      // $('#lower-right-speaker').toggleClass('speaker');
+      // $('#upper-left-speaker').toggleClass('speaker');
+      // $('#upper-right-speaker').toggleClass('speaker');
     }
 
     // Move block along page
